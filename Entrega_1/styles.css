@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+.btn {
+    background-color: #013927;
+    border-color: #edf0ee;
+    color: #edf0ee;
+    transition: all 0.3s;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgb(219, 219, 219);
+  }
+
+#codigo {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
