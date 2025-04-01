@@ -19,7 +19,12 @@ function registrarUsuario() {
     let email = prompt('Ingrese su correo electrónico:');
     let codigo = generarCodigoUnico();
     
-    let usuario = { codigo, nombre, email };
+    let usuario = { 
+        codigo,
+        nombre,
+        email,
+    };
+
     usuarios.push(usuario);
     
     alert('Registro exitoso. Tu código es: ' + codigo);

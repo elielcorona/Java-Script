@@ -1,0 +1,57 @@
+/* styles.css */
+
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .brand {
+    font-weight: 700;
+    color: #0d3b66;
+  }
+  
+  .logo-icon {
+    max-width: 220px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .logo-icon-ingreso {
+    max-width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Botón principal */
+  .btn-main {
+    background-color: #1d72b8;
+    color: white;
+    border: none;
+  }
+  
+  .btn-main:hover {
+    background-color: #155a8a;
+  }
+  
+  /* Contenedor del formulario */
+  .form-container {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  
+  /* Inputs más estilizados */
+  .form-control {
+    border-radius: 0.5rem;
+  }
+  
+  /* Texto de "Registrarse" */
+  .form-container small a {
+    font-size: 0.85rem;
+  }
+  
+  /* Link 'Soy Partner' */
+  a.text-primary.fw-semibold {
+    font-size: 0.95rem;
+  }
+  
